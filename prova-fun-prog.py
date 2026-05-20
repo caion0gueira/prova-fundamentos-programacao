@@ -1,3 +1,4 @@
+
 total_vendas = 0
 total_bruto = 0
 total_desconto = 0
@@ -30,10 +31,10 @@ while opcao !='1,2,3':
         valor_desconto= valor_bruto * (desconto/100)
         valor_final = valor_bruto - valor_desconto
 
-        print (f'Valor bruto da venda: R${valor_bruto}')
+        print (f'Valor bruto da venda: R$ {valor_bruto:.2f}')
         print (f'Desconto aplicado: {desconto}%')
-        print (f'Valor do desconto: R${valor_desconto}')
-        print (f'Valor final da venda: R${valor_final}')
+        print (f'Valor do desconto: R$ {valor_desconto:.2f}')
+        print (f'Valor final da venda: R$ {valor_final:.2f}')
 
         total_vendas += 1
         total_bruto += valor_bruto
@@ -41,19 +42,19 @@ while opcao !='1,2,3':
 
     elif opcao ==2:
 
-        print ('=== RESUMO PARCIAL ===')
-        print (f'Total de vendas realizadas:{total_vendas}')
-        print (f'Total bruto vendido: R${total_bruto}')
-        print (f'Total bruto vendido: R${total_desconto}')
-        print (f'Total líquido vendido: R$ {total_liquido}')
+        print ('===== RESUMO PARCIAL =====')
+        print (f'Total de vendas realizadas: {total_vendas}')
+        print (f'Total bruto vendido: R$ {total_bruto:.2f}')
+        print (f'Total bruto vendido: R$ {total_desconto:.2f}')
+        print (f'Total líquido vendido: R$ {total_liquido:.2f}')
 
     elif opcao==3:
 
-        print ('=== RESUMO FINAL ===')
-        print (f'Total de vendas realizadas:{total_vendas}')
-        print (f'Total bruto vendido: R${total_bruto}')
-        print (f'Total bruto vendido: R${total_desconto}')
-        print (f'Total líquido vendido: R$ {total_liquido}')
+        print ('===== RESUMO FINAL =====')
+        print (f'Total de vendas realizadas: {total_vendas}')
+        print (f'Total bruto vendido: R$ {total_bruto:.2f}')
+        print (f'Total bruto vendido: R$ {total_desconto:.2f}')
+        print (f'Total líquido vendido: R$ {total_liquido:.2f}')
 
         break     
 
