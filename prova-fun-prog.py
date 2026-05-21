@@ -45,7 +45,7 @@ while opcao !='1,2,3':
         print ('===== RESUMO PARCIAL =====')
         print (f'Total de vendas realizadas: {total_vendas}')
         print (f'Total bruto vendido: R$ {total_bruto:.2f}')
-        print (f'Total bruto vendido: R$ {total_desconto:.2f}')
+        print (f'Total de descontos aplicados: R$ {total_desconto:.2f}')
         print (f'Total líquido vendido: R$ {total_liquido:.2f}')
 
     elif opcao==3:
@@ -53,7 +53,7 @@ while opcao !='1,2,3':
         print ('===== RESUMO FINAL =====')
         print (f'Total de vendas realizadas: {total_vendas}')
         print (f'Total bruto vendido: R$ {total_bruto:.2f}')
-        print (f'Total bruto vendido: R$ {total_desconto:.2f}')
+        print (f'Total de descontos aplicados: R$ {total_desconto:.2f}')
         print (f'Total líquido vendido: R$ {total_liquido:.2f}')
 
         break     
